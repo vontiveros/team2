@@ -1,0 +1,37 @@
+p, li {
+  color: black;
+  font-size: 14px;
+}
+
+
+html {
+  background-color: #d6cbd3;
+}
+
+
+h1 {
+ text-align: center;
+ font-size: 22px;
+  margin: 0;
+  padding: 25px 0;
+  color: #bdcebe;
+  text-shadow: 2px 2px 1px black;
+}
+
+
+body {
+  width: 600px;
+  margin: 0 auto;
+  background-color: #ada397;
+  padding: 0 15px 10px 15px;
+  border: 5px solid black;
+}
+
+id=gohome {
+
+	font-size: 16px;
+	font-color: blue;
+	font-style: italic;
+	padding: 25px 15px 2px 15px
+	border: 5px blue;
+}
