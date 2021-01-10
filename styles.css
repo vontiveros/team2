@@ -15,6 +15,9 @@ html {
   margin: 0 0;
   padding: 25px 0;
   color: #bdcebe;
+  background-color: #eca1a6;
+  border: 5px solid black;
+  width: 1000px;
 
 }
 
