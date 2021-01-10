@@ -9,26 +9,29 @@ html {
 }
 
 
-h1 {
+#header {
  text-align: center;
  font-size: 48px;
-  margin: 0;
+  margin: 0 0;
   padding: 25px 0;
   color: #bdcebe;
+  background-color: #eca1a6;
 }
 
+h2 {
+  font-size: 32px;
+}
 
 body {
-  width: 600px;
+  width: 1000px;
   margin: 0 auto;
   background-color: #ada397;
   padding: 0 15px 10px 15px;
   border: 5px solid black;
 }
 
-id=gohome {
-
-	font-size: 16px;
+#navigation {
+	font-size: 22px;
 	font-color: blue;
 	font-style: italic;
 	padding: 25px 15px 2px 15px
