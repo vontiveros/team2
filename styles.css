@@ -31,9 +31,11 @@ body {
 }
 
 img {
-  border: 1px solid black;
-   display: block;
-  margin: 0 auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
 #navigation {
 	font-size: 22px;
