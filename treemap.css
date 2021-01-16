@@ -1,13 +1,13 @@
 
-svg {
+#keywords-treemap svg {
   font: 10px sans-serif;
 }
 
-a:hover tspan:first-child {
+#keywords-treemap a:hover tspan:first-child {
   text-decoration: underline;
 }
 
-tspan:last-child {
+#keywords-treemap tspan:last-child {
   font-size: 9px;
   fill-opacity: 0.7;
-}
+} 
