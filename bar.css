@@ -1,0 +1,9 @@
+body { font-family: "Arial", sans-serif; }
+.bar { fill: #C71585; }
+.axis { font-size: 19px; }
+.axis path,
+.axis line {
+    fill: none;
+    display: none;
+}
+.label { font-size: 19px; }
