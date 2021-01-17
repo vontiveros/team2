@@ -45,7 +45,7 @@ var version = {
   "d3-zoom": "1.1.0"
 };
 
-d3.csv("CensorshipCats3Chinese.csv", function(d) {
+d3.csv("CensorshipCats3 Chinese.csv", function(d) {
   d.size = +d.size;
   return d;
 }, function(error, data) {
