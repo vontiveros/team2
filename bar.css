@@ -1,9 +1,10 @@
-body { font-family: "Arial", sans-serif; }
-.bar { fill: #C71585; }
-.axis { font-size: 19px; }
-.axis path,
-.axis line {
+
+#keywordsbar { font-family: "Arial", sans-serif; }
+#keywordsbar .bar { fill: #C71585; }
+#keywordsbar .axis { font-size: 19px; }
+#keywordsbar .axis path,
+#keywordsbar .axis line {
     fill: none;
     display: none;
 }
-.label { font-size: 19px; }
+#keywordsbar .label { font-size: 19px; }

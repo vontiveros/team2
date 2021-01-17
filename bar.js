@@ -1,9 +1,9 @@
-d3.json("bar.json", function(error, data) {
+d3v3.json("bar.json", function(error, data) {
             if (error) throw error;
 
             //sort bars based on value
             data = data.sort(function (a, b) {
-                return d3.ascending(a.value, b.value);
+                return d3v3.ascending(a.value, b.value);
             })
 
             //set up svg using margin conventions - we'll need plenty of room on the left for labels
@@ -17,26 +17,26 @@ d3.json("bar.json", function(error, data) {
             var width = 1200 - margin.left - margin.right,
                 height = 1000 - margin.top - margin.bottom;
 
-            var svg = d3.select("#graphic").append("svg")
+            var svg = d3v3.select("#keywordsbar").append("svg")
                 .attr("width", width + margin.left + margin.right)
                 .attr("height", height + margin.top + margin.bottom)
                 .append("g")
                 .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-            var x = d3.scale.linear()
+            var x = d3v3.scale.linear()
                 .range([0, width])
-                .domain([0, d3.max(data, function (d) {
+                .domain([0, d3v3.max(data, function (d) {
                     return d.value;
                 })]);
 
-            var y = d3.scale.ordinal()
+            var y = d3v3.scale.ordinal()
                 .rangeRoundBands([height, 0], .1)
                 .domain(data.map(function (d) {
                     return d.name;
                 }));
 
             //make y axis to show bar names
-            var yAxis = d3.svg.axis()
+            var yAxis = d3v3.svg.axis()
                 .scale(y)
                 //no tick marks
                 .tickSize(0)

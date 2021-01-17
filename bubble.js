@@ -1,22 +1,22 @@
-var svg = d3.select("#keycategories"),
+var svg = d3v4.select("#keycategories"),
     width = +svg.attr("width"),
     height = +svg.attr("height");
 
-var format = d3.format(",d");
+var format = d3v4.format(",d");
 
-var color = d3.scaleOrdinal(d3.schemeCategory20c);
+var color = d3v4.scaleOrdinal(d3v4.schemeCategory20c);
 
-var pack = d3.pack()
+var pack = d3v4.pack()
     .size([width, height])
     .padding(1.5);
 
-d3.csv("bubble.csv", function(d) {
+d3v4.csv("bubble.csv", function(d) {
   d.value = +d.value;
   if (d.value) return d;
 }, function(error, classes) {
   if (error) throw error;
 
-  var root = d3.hierarchy({children: classes})
+  var root = d3v4.hierarchy({children: classes})
       .sum(function(d) { return d.value; })
       .each(function(d) {
         if (id = d.data.id) {
