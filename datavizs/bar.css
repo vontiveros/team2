@@ -1,6 +1,6 @@
 
 #keywordsbar { font-family: "Arial", sans-serif; }
-#keywordsbar .bar { fill: #C71585; }
+#keywordsbar .bar { fill: #294c9e; }
 #keywordsbar .axis { font-size: 19px; }
 #keywordsbar .axis path,
 #keywordsbar .axis line {
@@ -8,3 +8,11 @@
     display: none;
 }
 #keywordsbar .label { font-size: 19px; }
+h4 {
+		font-family: "Arial", sans-serif;
+		font-size: 20px;
+	}
+h2 {
+		font-family: "Arial", sans-serif;
+		font-size: 32px;
+	}	
