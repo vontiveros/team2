@@ -46,25 +46,17 @@
         <!-- Homepage -->
         <p>  </p>
         <h1>中国审查项目 (CCP)</h1><hr>
-<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="https://www.goldenfrog.com/blog/wp-content/uploads/2016/07/china_online_censorship_blog.png" class="d-block w-100" alt="...">
-    </div>
-  </div>
-</div>
       
       <!-- Introduction to the Project -->
-       <br>
+        <figure class="figure">
+       <img src="images/wordcloud1.png" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+       <figcaption class="figure-caption">此词云图显示了在2016年7月整个月中被审查的关键词。词汇的大小反映了该词汇在被审查的关键词或关键词组合中被包含次数的多少。这些关键词来源于<a href='https://github.com/citizenlab/chat-censorship/blob/master/wechat/709crackdown/all-keywords.csv'>该数据集</a>。</figcaption>
+       </figure>
        <p>欢迎来到我们的中国互联网审查项目。我们的目标是通过分析公民实验室提供的有关微信平台上被审查关键词的<a href='https://github.com/citizenlab'>数据</a>，帮助专家和新手更好地了解中华人民共和国的在线审查机制。</p>
-       <p>公民实验室是多伦多大学蒙克全球事务与公共政策学院的跨学科实验室。更多相关信息请见公民实验室的<a href="https://citizenlab.ca">主页网站</a>。</p><hr>
-       <h3>2016年7月词云</h3>
-      <img src = "images/wordcloud1.png" class="img-fluid">
-      <P>此图显示了在2016年7月整个月中被审查的关键词。词汇的大小反映了该词汇在被审查的短语或关键词组合中被包含次数的多少。 比如，“天安门”出现在“天安门+6月4日”、“天安门+坦克”、“天安门+谋杀案”、“天安门+母亲”、“天安门+动荡”等关键词组合中。需要注意的是，该时间段是指遭到审查的关键词被发现的时间，而不是中国政府初次对这些关键词其进行审查的时间。这些关键词来源于<a href='https://github.com/citizenlab/chat-censorship/blob/master/wechat/709crackdown/all-keywords.csv'>此数据集</a>。</P>
-       <br>
+       <p>公民实验室是多伦多大学蒙克全球事务与公共政策学院的跨学科实验室。更多相关信息请见公民实验室的<a href="https://citizenlab.ca">主页网站</a>。</p><br>
        
 <!-- Navigation Buttons -->
-<ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+<hr><ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
   <li class="nav-item" role="presentation">
     <a class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="false">中国审查机制</a>
   </li>
@@ -92,22 +84,31 @@
 <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">...</div>
       <hr><h2>数据可视化</h2><br>
       <h4>2016年7月至2017年3月被审查的关键词</h4>
-      <img src = "images/IMG_6423.png" class="img-fluid" height="80%" width="80%">
-      <P>图1:该直方图显示了每个给定月份中被审查的关键字数量。2016年7月被审查的词数量很高，这可能是因为公民实验室的项目于2016年7月开始，所以第一个月反映了已知禁止主题的积累，而不是新的受审查单词。该数据集可以在<a href='https://github.com/citizenlab/chat-censorship/blob/master/wechat/709crackdown/all-keywords.csv'>这里</a>找到。</P>
+      <object data="datavizs/Chinesebar.html" width="720" height="600"></object>
+      <P>上述该直方图显示了每个给定月份中被审查的关键字数量。2016年7月被审查的词数量很高，这可能是因为公民实验室的项目于2016年7月开始，所以第一个月反映了已知禁止主题的积累，而不是新的受审查单词。该数据集可以在<a href='https://github.com/citizenlab/chat-censorship/blob/master/wechat/709crackdown/all-keywords.csv'>这里</a>找到。</P>
 
-      <h4>被审查关键词的类别</h4>
-      <object data="treechart/indexChinese.html" width="900" height="550"></object>
-      <p>此树形图显示了被审查关键字所属的类别和子类别。通过该图我们可以发现，被审查的关键词通常是审查制度大策略中的一部分，而并非孤立事件。比如，被审查的是关键字组合文化大革命+精神自由+谢扬自己无辜”而非单个关键词。这个关键词组合指的是对人权律师谢阳的监禁，该事件是“<a href='https://zh.wikipedia.org/wiki/中國709維權律師大抓捕事件'>“709大追捕”</a>的一部分。709大追捕是指中国政府从2015年7月开始的对维权律师和辩护人进行的镇压。在此次镇压中，人权律师江天勇和高智晟被捕入狱。该图表未反映数据集中的所有关键字。随着被审查关键字的积累，可以确定其他趋势和类别。该数据集可以在<a href='https://github.com/citizenlab/chat-censorship/blob/master/wechat/709crackdown/all-keywords.csv'>这里</a>找到。</p><br>
+      <h4>与党的领导和天安门相关内容仍然是最有可能受到审查的领域。</h4>
+      <object data="treechart/indexChinese.html" width="900" height="400"></object>
+      <p>此树形图显示了被审查关键字所属的类别和子类别。通过该图我们可以发现，被审查的关键词通常是审查制度大策略中的一部分，而并非孤立事件。例如，我们的数据集表明，共产党领导者们的名字是最经常受到审查的对象之一。这点值得注意，因为对党内领导人名字的审查似乎比对许多具有争议性话题（如领土或人权问题）的审查更加频繁。（需要指出的的是以上树形图包含了数据集中的大多数但并非全部关键词/关键词组合。该数据集可以在<a href='https://github.com/citizenlab/chat-censorship/blob/master/wechat/709crackdown/all-keywords.csv'>这里</a>找到。</p>
+      <p><i>颜色类别含义：</i></p>
+      <ul>
+        <li>蓝色：党的领导</li>
+        <li>淡蓝色：天安门</li>
+        <li>橘色：领土问题</li>
+        <li>绿色：人权问题</li>
+        <li>黄色：对党的批评</li>
+        <li>浅绿色：党内外异见人士</li>
+        <li>红色：外国</li></ul><br><br>
 
 <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab"> </div>
       <hr><h2>微信概览</h2>
       <p>在中国境外，人们通过脸书、Instagram、“快照“、推特和Whatsapp与朋友和家人保持联系。同时，人们也使用Uber、Lyft、Uber Eats、Venmo、Cashapp等应用程序提供的其他服务。微信用户可以通过微信应用互发送消息，获取新闻，订购外卖，汇款，打车。微信用户也可以使用微信在商店付款。在中国大陆，人们生活的方方面面都离不开微信，微信也是人们联系彼此的首要方式。</p>
-      <img src = "images/wechat1.jpg" class="img-fluid" height="30%" width="30%">
-      <img src = "images/wechat2.jpg" class="img-fluid" height="30%" width="30%">
-      <img src = "images/wechat3.jpg" class="img-fluid" height="30%" width="30%">
+      <img src = "images/wechat4.PNG" class="img-fluid" height="30%" width="30%">
+      <img src = "images/wechat6.PNG" class="img-fluid" height="30%" width="30%">
+      <img src = "images/wechat5.PNG" class="img-fluid" height="30%" width="30%">
       <p> </p>
       <p>微信的聊天功能与脸书的Messenger，苹果手机上的iMessage以及WhatsApp相同。微信用户可以将信息、图像和文件发送给使用该平台的其他用户。微信用户还可以将图片上传到“朋友圈”，该功能类似于将图片上传到Instagram或脸书的“故事”。通过微信支付、微信用户还可以订购外卖、支付电话费、预订酒店、预定出租车等。此外，微信用户可以直接从银行帐户将资金存入微信中的电子钱包。在中国大陆，几乎所有供应商都接受微信付款。当需要付款时，微信用户只需扫描供应商的QR码即可。</p>
-
+      <p> </p>
       <h4>微信相关报道</h4>
       <ul>
         <li>近期，由于特朗普政府试图在限制微信在美国的使用，全球媒体有诸多关于微信的报道。特朗普政府将隐私问题和对用户的监视作为此项禁令的原因。此外，特朗普政府也试图对中国公司字节跳动拥有的移动应用程序TikTok(海外版抖音)实施类似禁令。<a href='https://cn.nytimes.com/business/20200810/trump-executive-order-tiktok-wechat/'>阅读更多</a>。</li>
