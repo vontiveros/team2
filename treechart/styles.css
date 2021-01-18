@@ -10,3 +10,11 @@ tspan:last-child {
   font-size: 9px;
   fill-opacity: 0.7;
 }
+h2 {
+		font-family: "Arial", sans-serif;
+		font-size: 32px;
+	}	
+h4 {
+		font-family: "Arial", sans-serif;
+		font-size: 20px;
+	}
