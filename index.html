@@ -7,7 +7,9 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-    
+   
+    <!-- website aesthetics -->
+
     <title>China Censorship Project</title>
   </head>
   <body style="background-color: lightyellow;">
@@ -17,6 +19,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
 
+      <!-- Navigation Bar -->
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item">
@@ -27,7 +30,6 @@
           </li>
         </ul>
       </div>
-
 
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
@@ -42,28 +44,27 @@
       <div class="row">
         <div class="col">
 
-
+      <!-- Homepage -->
         <p>  </p>
         <h1>China Censorship Project (CCP)</h1><hr>
- <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="https://www.goldenfrog.com/blog/wp-content/uploads/2016/07/china_online_censorship_blog.png" class="d-block w-100" alt="...">
-    </div>
-  </div>
-</div>
+
+      <!-- Introduction to the Project -->
+       <figure class="figure">
+       <img src="images/wordcloud2.png" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+       <figcaption class="figure-caption">This word cloud shows the words censored throughout the month of July 2016. The size of the words conveys the number of times the word was included in a banned phrase or set of keywords. The keywords were pulled from <a href='https://github.com/citizenlab/chat-censorship/blob/master/wechat/709crackdown/all-keywords.csv'>this</a> dataset of censored keywords on WeChat.</figcaption>
+       </figure>
+       <p>Welcome to our project on Internet censorship in China. Our goal is to provide experts and novices alike with a better understanding of online censorship in the People's Republic of China by examining <a href='https://github.com/citizenlab'>data</a> on censored terms on WeChat. Our analysis relies on the keywords compiled by the Citizen Lab based in Toronto. </p>
+       <p>The Citizen Lab is an interdisciplinary laboratory based at the Munk School of Global Affairs & Public Policy, University of Toronto. More information can be found at their <a href='https://citizenlab.ca'>website</a>.</p><hr>
+    
        <br>
-       <p>Welcome to our project on Internet censorship in China. Our goal is to provide experts and novices alike with a better understanding of online censorship in the People's Republic of China by examining <a href='https://github.com/citizenlab'>data</a> on censored terms on WeChat provided by the Citizen Lab.</p>
 
-       <p>The Citizen Lab is an interdisciplinary laboratory based at the Munk School of Global Affairs & Public Policy, University of Toronto. More information can be found at their <a href='https://citizenlab.ca'>website</a>.</p><hr><br>
-
-
+<!-- Navigation Buttons -->
 <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
   <li class="nav-item" role="presentation">
     <a class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="false">Censorship in China</a>
   </li>
   <li class="nav-item" role="presentation">
-    <a class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Data Visualization</a>
+    <a class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Data Analysis</a>
   </li>
   <li class="nav-item" role="presentation">
     <a class="nav-link active" id="pills-contact-tab" data-bs-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">WeChat Overview</a>
@@ -77,39 +78,60 @@
   <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"></div>
 </div>
       <h2>Censorship in China</h2>
-      <p>It is common knowledge that China’s "Great Firewall" blocks many Western companies from reaching users in Mainland China. For example, <i>The New York Times</i>, <i>BBC</i>, <i>The Washington Post</i>, Google, Facebook, Twitter, Snapchat, and Instagram are all inaccessible from within Mainland China without a virtual private network (VPN), which are also illegal in Mainland China. However, many people outside of China are unaware that Chinese internet and social media apps are also subject to intensive government oversight. In WeChat, the Chinese government censors sensitive key words, phrases, and images sent by users through the app.</p>
-      <p>The Citizen Lab tested some known censored topics by sending a sensitive message from a Canada based WeChat account to a Mainland China based account. They found that messages containing sensitive topics sent from one account were not received by the other account.</p>
+      <p>It is common knowledge that China’s "Great Firewall" blocks many Western companies from reaching users in Mainland China. For example, <i>The New York Times</i>, <i>BBC</i>, <i>The Washington Post</i>, Google, Facebook, Twitter, Snapchat, and Instagram are all inaccessible from within Mainland China without a virtual private network (VPN), which are also illegal in Mainland China. However, many people outside of China are unaware that Chinese internet and social media apps are also subject to intensive government oversight. On social media platforms, the Chinese government censors sensitive key words, phrases, and images sent by users through the app.</p>
+      <p>While keywords, phrases, images, and urls are censored across all platforms in mainland China, this project focuses on the censorship data from the WeChat that is compiled through the Citizen Lab's research. The Citizen Lab tested some known censored topics by sending a sensitive message from a Canada based WeChat account to a Mainland China based account. They found that messages containing sensitive topics sent from one account were not received by the other account (see images below). The full report on this test can be found <a href='https://citizenlab.ca/2020/05/we-chat-they-watch/'>here</a>.</p>
       <img src="https://citizenlab.ca/wp-content/uploads/2020/04/Figure-1.png" class="img-fluid d-block mx-auto" height="40%" width="60%">
       <img src="https://citizenlab.ca/wp-content/uploads/2020/04/Figure-2.png" class="img-fluid d-block mx-auto" height="40%" width="60%">
-      <p> </p><br>
+      <p></p><br>
 
 <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">...</div>
-      <hr><h2>Data Visualization</h2>
-      <img src = "images/IMG_6423.png" class="img-fluid" height="80%" width="80%">
-      <P> Graphic 1. As shown in this image above the date of 7/1/2016 was the day of the annual Hong Kong protest, there was a lot of activity of events being blocked in WeChat. </P>
-      <h3>Word Cloud for July 1 2016 </h3>
-      <img src = "images/IMG_6424.png" class="img-fluid" height="65%" width="65%">
-      <P> Graphic 2. Shows a word cloud for the most common words blocked on July 1 2016.</P>
-      <br>
+      <hr><h2>Data Analysis</h2><br>
+      <h4>Censored Keywords by Month July 2016-March 2017</h4>
+      <object data="datavizs/bar.html" width="900" height="550"></object>
+      <P> Graphic 1. The histogram shows the number of keywords censored in each given month. The high number of censored words for July 2016 may be due to the fact that the Citizen Lab's project began in July 2016, and so the first month reflects an accumulation of known banned topics rather than new censored words. The dataset can be found <a href='https://github.com/citizenlab/chat-censorship/blob/master/wechat/709crackdown/all-keywords.csv'>here</a>.</P>
+
+      <h4>Party leadership and Tiananmen remain the most likely areas to be censored.</h4>
+      <object data="treechart/index.html" width="900" height="550"></object>
+      <p> This tree chart displays the censored keywords as part of categories and subcategories. In this way, we can see that censored keywords are often part of a larger strategy in censorship rather than an isolated incident. For example, our <a href='https://github.com/citizenlab/chat-censorship/blob/master/wechat/709crackdown/all-keywords.csv'>dataset</a> indicates that party leaders themselves are among the most-frequently censored terms. This is noteworthy because they appear to be more frequently censored than many controversial topics, such as territorial or human rights issues. (Note that this chart includes most but not all terms from the dataset.)</p>
+      <p><i>Key:</i></p>
+
+      <ul>
+        <li> Blue: Party leadership</li>
+        <li>Light blue: Tiananmen</li>
+        <li>Orange: Territorial issues</li>
+        <li>Green: Human rights issues</li>
+        <li>Yellow: Party criticism</li>
+        <li>Light green: Party opponents</li>
+        <li>Red: Foreign countries</li></ul>
 
 <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab"> </div>
-      <hr><h2>The WeChat App</h2>
+      <hr><h2>WeChat Overview</h2>
       <p>Outside of China, people rely on a combination of Facebook, Instagram, Snapchat, Twitter, and Whatsapp to stay in touch with friends and family and use apps like Uber, Lyft, Uber Eats, Venmo, Cashapp for other services. WeChat users can message each other, get news updates, order takeout, send money, order a taxi, or pay in store all in the WeChat app. The app is ubiquitous throughout Mainland China and is the primary way people communicate.</p>
       <img src = "images/wechat1.jpg" class="img-fluid" height="30%" width="30%">
       <img src = "images/wechat2.jpg" class="img-fluid" height="30%" width="30%">
       <img src = "images/wechat3.jpg" class="img-fluid" height="30%" width="30%">
       <p> </p>
-      <p>The Chat function operates the same as Facebook Messenger, iMessage, and WhatsApp; users are able to send messages, images, and files to other users on the platofrm. Users can also upload pictures to their "Moments" as non-Chinese upload pictures to their Instagram or Facebook "Story." From WeChat Pay, users can order food through mobile delivery, pay their phone bill, book a hotel, order a cab, and more. Users are able to deposit money into their Wallet on WeChat directly from their bank accounts. WeChat Pay is accepted as a form of payment by virtually every vendor in Mainland China. To pay, users need only have their QR code scanned by the vendor. </p><br>
+      <p>The Chat function operates the same as Facebook Messenger, iMessage, and WhatsApp; users are able to send messages, images, and files to other users on the platofrm. Users can also upload pictures to their "Moments" as non-Chinese upload pictures to their Instagram or Facebook "Story." From WeChat Pay, users can order food through mobile delivery, pay their phone bill, book a hotel, order a cab, and more. Users are able to deposit money into their Wallet on WeChat directly from their bank accounts. WeChat Pay is accepted as a form of payment by virtually every vendor in Mainland China. To pay, users need only have their QR code scanned by the vendor. </p>
+
+      <h4>WeChat in the Media</h4>
+      <ul>
+        <li> WeChat was most recently at the forefront of global media due to the Trump administration's attempts to ban the app from operating in the U.S. The administration cited privacy concerns and surveillance of users as the reason behind the ban. The ban also applied to TikTok, a mobile app owned by the Chinese company ByteDance. <a href='https://www.nytimes.com/2020/08/07/business/economy/trump-executive-order-tiktok-wechat.html'>Read more here</a>.</li>
+        <li> WeChat and other Chinese apps were banned from operating in India in July 2020. The Indian government stated that the Chinese mobile apps threatened India's soveriegnty and national security. Anti-China sentiments in India were high this summer following another clash between Indian and Chinese troops in a disputed border area in the Himalayas. <a href='https://www.cnbc.com/2020/11/26/china-responds-to-india-banning-43-additional-chinese-apps.html'>Read more here</a>.</li>
+        <li> WeChat is being accused of taking the Chinese government's disinformation campaigns global. Both WeChat and Tiktok are believed to be supressing certain content, like pro Hong Kong democracy or LGBTQ content. <a href='https://www.japantimes.co.jp/news/2020/09/09/world/wechat-tiktok-china-censorship/'>Read more here</a>.</li>
+        <li> In the midst of the global coronavirus pandemic, WeChat is censoring messages containing certain keywords related to the coronavirus pandemic. These findings also rely on data collected by the Citizen Lab. <a href='https://www.wired.com/story/wechat-chinese-internet-censorship-coronavirus/'>Read more here</a>.</li></ul>
+        <p> </p><br>
 
 
  <div class="tab-reading" id="pills-tabreading">
   <div class="tab-pane fade show active" id="pills-reading" role="tabpanel" aria-labelledby="pills-reading-tab"></div>
-</div>     
-      <hr><h2>Further Reading</h2>
+</div> 
+   
+    <hr><h2>Further Reading</h2>
       <ul>
-          <li>Content for Mandarin-speaking users</li>
-          <li>Nifty graphic data visualizations</li>
-          <li><i>... And more! </i></li></ul>
+          <li>The Council on Foreign Relations provides a detailed overview of how censorship affects the Chinese media landscape as a whole. The article can be found <a href='https://www.cfr.org/backgrounder/media-censorship-china'>here</a>.</li>
+          <li><i>Foreign Policy</i> offers updates on censorship in print media. Links within the article provide additional information on topics like censorship in academia. The article can be found <a href='https://foreignpolicy.com/2019/03/28/china-is-burning-books-again/'>here</a>.</li>
+          <li>The Guardian shows how China's state run media propaganda is permeating beyond China's borders to influence foreign media. The article can be found <a href='https://www.theguardian.com/news/2018/dec/07/china-plan-for-global-media-dominance-propaganda-xi-jinping'>here</a>.</li>
+          <li>Jessica Chen Weiss of Cornell University has done extensive research on the role of protests in China's authoritarian regime. Her work shows the intersection between the Chinese government's various methods of maintaining control over the country. Her books and articles can be found <a href='http://www.jessicachenweiss.com/articles--chapters.html'>here</a>.</li></ul>  
         
           </div>
          </div>
