@@ -14,8 +14,8 @@ d3v3.json("bar.json", function(error, data) {
                 left: 150
             };
 
-            var width = 1200 - margin.left - margin.right,
-                height = 1000 - margin.top - margin.bottom;
+            var width = 600 - margin.left - margin.right,
+                height = 500 - margin.top - margin.bottom;
 
             var svg = d3v3.select("#keywordsbar").append("svg")
                 .attr("width", width + margin.left + margin.right)
